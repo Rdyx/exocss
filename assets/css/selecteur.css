@@ -1,9 +1,11 @@
-.master, .master h1, h2 {
+.master {
 display: flex;
 flex-flow: wrap;
-width: 100%;
 }
 
+.master h1 {
+    width: 100%;
+}
 
 .master div {
     width: 46%;
@@ -21,10 +23,5 @@ width: 100%;
     width: 50%;
     float: right;
 }
-
-/* .master img {
-    width: 50%;
-    height: 50%;
-} */
 
 
