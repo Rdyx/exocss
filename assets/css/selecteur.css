@@ -1,15 +1,17 @@
 .master {
-display: flex;
-flex-flow: wrap;
+    display: flex;
+    flex-flow: wrap;
 }
 
 .master h1 {
     width: 100%;
+    font-weight: 900;
 }
 
 .master div {
-    width: 46%;
-    background-color: green;
+    border: 1px solid black;
+    width: 45.8%;
+    background-color: #98b98b;
     margin: 0 1% 2% 1%;
     padding: 1%;
 }
@@ -17,11 +19,22 @@ flex-flow: wrap;
 .master  img {
     float: left;
     width: 48%;
+    margin-bottom: 2%;
 }
 
-.master h3, p {
+.master h3, .master p {
     width: 50%;
     float: right;
 }
 
+.master h3 {
+    margin-top: 0%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 0%;
+    color: white;
+}
 
+.master p {
+    font-size: 18px;
+}
