@@ -1,1 +1,30 @@
-.master{}
+.master, .master h1, h2 {
+display: flex;
+flex-flow: wrap;
+width: 100%;
+}
+
+
+.master div {
+    width: 46%;
+    background-color: green;
+    margin: 0 1% 2% 1%;
+    padding: 1%;
+}
+
+.master  img {
+    float: left;
+    width: 48%;
+}
+
+.master h3, p {
+    width: 50%;
+    float: right;
+}
+
+/* .master img {
+    width: 50%;
+    height: 50%;
+} */
+
+
